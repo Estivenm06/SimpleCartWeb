@@ -1,3 +1,7 @@
+require("../css/custom.css") 
+require("../css/normalize.css") 
+require("../css/skeleton.css")
+
 // Variables
 const cart = document.querySelector("#carrito");
 const containerCart = document.querySelector("#lista-carrito tbody");

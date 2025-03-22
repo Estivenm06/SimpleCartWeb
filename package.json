@@ -2,5 +2,26 @@
   "dependencies": {
     "webpack": "^5.98.0",
     "webpack-cli": "^6.0.1"
-  }
+  },
+  "name": "15-proyecto-carrito",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "devDependencies": {
+    "copy-webpack-plugin": "^13.0.0",
+    "css-loader": "^7.1.2",
+    "css-minimizer-webpack-plugin": "^7.0.2",
+    "html-minimizer-webpack-plugin": "^5.0.1",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "sass-loader": "^16.0.5",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "scripts": {
+    "build": "webpack serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "commonjs"
 }
