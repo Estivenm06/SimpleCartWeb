@@ -23,7 +23,6 @@ module.exports = {
     filename: "[name].[contenthash].js",
     path: path.resolve(__dirname, "./dist"),
     clean: true,
-    publicPath: '/'
   },
   plugins: [
     new HtmlWebpackPlugin({
