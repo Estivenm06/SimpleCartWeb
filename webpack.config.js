@@ -23,7 +23,7 @@ module.exports = {
     filename: "[name].[contenthash].js",
     path: path.resolve(__dirname, "./dist"),
     clean: true,
-    publicPath: '/Estivenm06/SimpleCartWeb'
+    publicPath: '/SimpleCartWeb/'
   },
   plugins: [
     new HtmlWebpackPlugin({
